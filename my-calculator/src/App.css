@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.calculator {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #fafafa;
+}
+
+.result-display {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.number-input {
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
